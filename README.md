@@ -8,6 +8,14 @@ Built using:
 
 [Echo](http://github.com/labstack/echo)
 
+TODO
+====
+* Use struct tags on the API struct to set path and http verbs
+* Include all http verbs (Only GET/POST/PUT so far...)
+* Allow for setting up Context via api.ContextFunc = func(api.Context) interface{}
+* Inject context as interface so api methods can use any type of user constructed context
+
+
 To get started with this project
 =================================
 
